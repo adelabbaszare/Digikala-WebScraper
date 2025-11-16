@@ -1,5 +1,5 @@
 # Sentiment Analysis of Digikala User Comments
-![Digikala]([https://www.webopedia.com/wp-content/uploads/2024/10/what-is-a-telegram-bot-cover-2.webp](https://about.digikala.com/ogImage.jpg))
+![Digikala](https://about.digikala.com/ogImage.jpg)
 [![GitHub Stars](https://img.shields.io/github/stars/adelabbaszare/Sentiment-Analysis-of-Digikala-User-Comments?style=social)](https://github.com/adelabbaszare/Sentiment-Analysis-of-Digikala-User-Comments)
 ![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)
 [![Web Scraping & Sentiment Analysis](https://img.shields.io/badge/Web%20Scraping%20%26%20Sentiment-Python-blue?logo=python&logoColor=white)](https://github.com/yourusername/your-repo)
