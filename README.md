@@ -1,4 +1,8 @@
 # Sentiment Analysis of Digikala User Comments
+![Digikala]([https://www.webopedia.com/wp-content/uploads/2024/10/what-is-a-telegram-bot-cover-2.webp](https://about.digikala.com/ogImage.jpg))
+[![GitHub Stars](https://img.shields.io/github/stars/adelabbaszare/Sentiment-Analysis-of-Digikala-User-Comments?style=social)](https://github.com/adelabbaszare/Sentiment-Analysis-of-Digikala-User-Comments)
+![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)
+[![Web Scraping & Sentiment Analysis](https://img.shields.io/badge/Web%20Scraping%20%26%20Sentiment-Python-blue?logo=python&logoColor=white)](https://github.com/yourusername/your-repo)
 
 This project performs a complete Sentiment Analysis on the user comments from the Digikala website. The project workflow includes automatic data collection via web scraping, cleaning and preprocessing of Persian text, Exploratory Data Analysis (EDA) to discover patterns, and finally, training and evaluating several machine learning models to classify comments into positive and negative categories.
 
@@ -29,7 +33,7 @@ Digikala-WebScraper/
 - **Text Preprocessing:** Preparing Persian comments for analysis, including normalization, tokenization, stemming, and removal of stopwords.
 - **Exploratory Data Analysis (EDA):** Visualizing the data to better understand the distribution of ratings, sentiments, and the most frequent words in positive and negative comments through charts and Word Clouds.
 - **Text Vectorization:** Converting the cleaned texts into numerical vectors using the TF-IDF model for use in machine learning models.
-- **Modeling and Evaluation:** Training and evaluating four different models (Logistic Regression, Naive Bayes, SVM, Random Forest) and comparing their performance using metrics like Accuracy and the Confusion Matrix.
+- **Modeling and Evaluation:** Training and evaluating four different models ```(Logistic Regression, Naive Bayes, SVM, Random Forest)``` and comparing their performance using metrics like Accuracy and the Confusion Matrix.
 
 ---
 
@@ -46,7 +50,7 @@ cd Digikala-WebScraper
 
 ### 2. Create a Virtual Environment
 To avoid library conflicts, create a virtual environment named `venv`:
-```bash
+```python
 python -m venv venv
 ```
 
@@ -138,3 +142,6 @@ After a full run of the project, the following files will be generated:
 - **`data/digikala_comments.csv`**: Raw data scraped from Digikala.
 - **`data/ccleaned_digikala_comments.csv`**: The final dataset after cleaning and preprocessing.
 - **Images in the `figures/` folder**: All charts, word clouds, and confusion matrices will be saved in this directory.
+
+![Positive Wordcloud generated from Digikala comments](https://raw.githubusercontent.com/adelabbaszare/Sentiment-Analysis-of-Digikala-User-Comments/main/figures/positive_wordcloud.png)
+![Negative Wordcloud generated from Digikala comments](https://raw.githubusercontent.com/adelabbaszare/Sentiment-Analysis-of-Digikala-User-Comments/main/figures/negative_wordcloud.png)
